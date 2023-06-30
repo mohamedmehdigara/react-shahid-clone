@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import AppRouter from './AppRouter';
 import TVShows from './components/TVShows';
 import Home from './components/Home';
 import Movies from './components/Movies';
-
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <Movies/>
-      <TVShows/>
-      <AppRouter />
+      <Layout/>
+        <Home />
+        <Movies />
+        <TVShows />
+      
     </div>
   );
 }

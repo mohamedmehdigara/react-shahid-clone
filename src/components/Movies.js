@@ -3,8 +3,9 @@ import React from 'react';
 const Movies = () => {
   return (
     <div>
+      {/* Add your movies page content here */}
       <h1>Movies</h1>
-      {/* Add your movies content here */}
+      {/* Add movie list, filtering options, etc. */}
     </div>
   );
 };

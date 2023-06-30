@@ -3,10 +3,12 @@ import React from 'react';
 const TVShows = () => {
   return (
     <div>
+      {/* Add your TV shows page content here */}
       <h1>TV Shows</h1>
-      {/* Add your TV shows content here */}
+      {/* Add TV show list, sorting options, etc. */}
     </div>
   );
 };
 
 export default TVShows;
+

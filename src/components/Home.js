@@ -3,10 +3,12 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
       {/* Add your home page content here */}
+      <h1>Welcome to Shahid Clone</h1>
+      {/* Add other sections and content */}
     </div>
   );
 };
 
 export default Home;
+
